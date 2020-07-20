@@ -27,3 +27,10 @@ function Header() {
 
     return header;
 }
+
+
+const entry = document.querySelector('.header-container');
+
+const newHeader = Header();
+
+entry.appendChild(newHeader);
