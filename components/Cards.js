@@ -35,5 +35,10 @@ function Card() {
     const img = document.createElement('img');
     const authorName = document.createElement('span');  
 
+    card.classList.add('card');
+    headline.classList.add('headline');
+    author.classList.add('author');
+    imgDiv.classList.add('img-container');
+
     return card;
 }
